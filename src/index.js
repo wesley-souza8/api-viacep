@@ -7,7 +7,6 @@ const app = express();
 const PORT = 3000; // Sinalizando a porta que será trabalhada
 
 // Endpoint para buscar o endereço pelo CEP
-
 app.get('/cep/:cep', async (req, res) => {
     
     const { cep } = req.params;
